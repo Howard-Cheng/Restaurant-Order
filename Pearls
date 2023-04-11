@@ -10,8 +10,6 @@ public class Pearls {
 	   System.out.printf("ticket totals + tax for the entire day: $%.2f\n", totalRegisterAmount);
    }
    
-   // define your method(s) here below 
-   // include all of the methods you created for the previous parts of this challenge
    public static double getAllTableOrders() {
       double registerTotal = 0.0;
       
@@ -23,7 +21,6 @@ public class Pearls {
       return registerTotal;
    }
    
-   // include all of the methods you created for the previous parts of this challenge
    public static boolean moreTablesToServe() {
       System.out.print("Another table (\'yes\' or \'no\')? ");
       String choice = scnr.next();
